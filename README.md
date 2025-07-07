@@ -2,6 +2,19 @@
 
 A Python GUI application for perspective correction and image warping with fine-tuning capabilities.
 
+![Example of Image Point Editor](example.png)
+
+
+## Next Steps for Claude Code:
+Remove unused code
+Flake8 
+Get rid of the warp to square button (click both at once) 
+Flip the order of the fine point picking. 
+Round the first fine picked point to the grid intersections
+Save the fine picked points 
+
+
+
 ## Features
 
 - **4-Point Perspective Transform**: Select 4 corner points to define a region for perspective correction
